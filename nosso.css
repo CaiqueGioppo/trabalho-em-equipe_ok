@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: radial-gradient(#4A76CB, #DB80D2);
+    color: white; text-shadow: black 0.2em 0.1em 0.2em;
+}
+
+main{
+    margin-top: 5%;  
+}
+
+p{
+    font-size: 80px;
+    margin: 2%;
+    padding: 3% 2%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.70);
+}
+
+button{
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+    margin: 1%;
+    padding: 1.5% 5%;
+    border-radius: 15px;
+    border:1px solid #dddddd;
+    color: white; text-shadow: black 0.2em 0.1em 0.2em;
+}
+
+button:hover{
+    transform: scale(1.04);
+    transition: 60ms all;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#entrar{
+    background-color: hsla(202, 81%, 67%, 0.70);
+}
+
+#cadastrar{
+    background-color: rgba(37, 148, 212, 0.70);
+}
+
+.login{
+    margin-top: 5%;
+}
